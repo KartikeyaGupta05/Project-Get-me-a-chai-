@@ -5,10 +5,6 @@ import { useRouter } from 'next/navigation'
 
 const Login = () => {
   const { data: session } = useSession()
-  // if(session) {
-  //       const router = useRouter()
-  //       router.push('/profile')
-  //   }
 
 
   const router = useRouter();
