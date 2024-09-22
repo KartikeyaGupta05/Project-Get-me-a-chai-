@@ -70,6 +70,6 @@ Sign in with Twitter
   )
 }
 
-export default login
+export default Login
 
 
