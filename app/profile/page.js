@@ -26,7 +26,7 @@ const Profile = () => {
         document.title = "Dashboard - Get Me a Chai"
         getData()
         if (!session) {
-            router.push('/Login');
+            router.push('/login');
         }
     }, [session, router]); // Ensure useEffect runs when session or router changes
 
